@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{
+    font-family: Yugothic,"游ゴシック"、"メイリオ"、Meiryo,"ヒラギノ角ゴPro　W3""Hiragino  Kaku Gothic Pro", sans-serif;
+    background: #ddd;
+    font-size: 140px;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9,#div10{
+    width:150px;
+    height:150px;
+    font-size:60%;
+    background-color: royalblue;
+}
+
+
+
+
+#container{
+    width:100%;
+    height:700px;
+    background-color:papayawhip;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+}
